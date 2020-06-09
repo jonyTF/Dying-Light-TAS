@@ -1,0 +1,2 @@
+360 degrees yaw is mouse movement of 1440 horizontally
+-700 vertically moves pitch all the way up to 89
