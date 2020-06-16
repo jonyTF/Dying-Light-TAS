@@ -14,7 +14,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;----------------
 YAW360 := 1440
 PITCH90 := 360
-POS_TOLERANCE := 0.5 ;how much off you can be off the destination position
+POS_TOLERANCE := 0.25 ;how much off you can be off the destination position
 
 ;----------------
 ; Global vars
@@ -81,12 +81,12 @@ SprintTo(x, y) {
   SendInput, {Shift up}
 }
 
-SpamSpace(time) {
+SpamKey(key, time, delay) {
   t := 0
   while t < time {
-    SendInput {Space}
-    Sleep, 10
-    t += 10
+    SendInput, %key%
+    Sleep, %delay%
+    t += delay
   }
 }
 

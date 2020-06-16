@@ -14,7 +14,7 @@ Hotkey, Pause, EarlyTerm     ;;;QUICK KILL COMMAND. *HIT Pause KEY ON KEYBOARD A
 ^p::pause
 
 ^d::
-  TowerDoorToLedge()
+  Beginning2()
 return 
 
 ^y::
