@@ -13,11 +13,11 @@
       <Address/>
       <CheatEntries>
         <CheatEntry>
-          <ID>10</ID>
-          <Description>"PlayerEntity"</Description>
+          <ID>49</ID>
+          <Description>"Player Entity"</Description>
           <ShowAsHex>1</ShowAsHex>
-          <VariableType>4 Bytes</VariableType>
-          <Address>gamedll_x64_rwdi.dll+1C9B460</Address>
+          <VariableType>8 Bytes</VariableType>
+          <Address>gamedll_x64_rwdi.dll+1CBBE50</Address>
           <Offsets>
             <Offset>0</Offset>
           </Offsets>
@@ -26,7 +26,7 @@
           <ID>20</ID>
           <Description>"PlayerXVel"</Description>
           <VariableType>Float</VariableType>
-          <Address>gamedll_x64_rwdi.dll+1C9B460</Address>
+          <Address>gamedll_x64_rwdi.dll+1CBBE50</Address>
           <Offsets>
             <Offset>E0</Offset>
           </Offsets>
@@ -35,25 +35,25 @@
           <ID>21</ID>
           <Description>"PlayerYVel"</Description>
           <VariableType>Float</VariableType>
-          <Address>gamedll_x64_rwdi.dll+1C9B460</Address>
+          <Address>gamedll_x64_rwdi.dll+1CBBE50</Address>
           <Offsets>
             <Offset>E8</Offset>
           </Offsets>
         </CheatEntry>
         <CheatEntry>
-          <ID>11</ID>
-          <Description>"Health"</Description>
+          <ID>48</ID>
+          <Description>"Player Health"</Description>
           <VariableType>Float</VariableType>
-          <Address>gamedll_x64_rwdi.dll+1C9B460</Address>
+          <Address>gamedll_x64_rwdi.dll+1CBBE50</Address>
           <Offsets>
-            <Offset>122C</Offset>
+            <Offset>124C</Offset>
           </Offsets>
         </CheatEntry>
         <CheatEntry>
           <ID>12</ID>
           <Description>"PlayerX"</Description>
           <VariableType>Float</VariableType>
-          <Address>gamedll_x64_rwdi.dll+1C9B460</Address>
+          <Address>gamedll_x64_rwdi.dll+1CBBE50</Address>
           <Offsets>
             <Offset>1168</Offset>
           </Offsets>
@@ -62,7 +62,7 @@
           <ID>13</ID>
           <Description>"PlayerY"</Description>
           <VariableType>Float</VariableType>
-          <Address>gamedll_x64_rwdi.dll+1C9B460</Address>
+          <Address>gamedll_x64_rwdi.dll+1CBBE50</Address>
           <Offsets>
             <Offset>1170</Offset>
           </Offsets>
@@ -71,7 +71,7 @@
           <ID>14</ID>
           <Description>"PlayerZ"</Description>
           <VariableType>Float</VariableType>
-          <Address>gamedll_x64_rwdi.dll+1C9B460</Address>
+          <Address>gamedll_x64_rwdi.dll+1CBBE50</Address>
           <Offsets>
             <Offset>1160</Offset>
           </Offsets>
@@ -80,7 +80,7 @@
           <ID>43</ID>
           <Description>"WeaponStamina"</Description>
           <VariableType>Float</VariableType>
-          <Address>gamedll_x64_rwdi.dll+1C9B460</Address>
+          <Address>gamedll_x64_rwdi.dll+1CBBE50</Address>
           <Offsets>
             <Offset>10</Offset>
             <Offset>1310</Offset>
@@ -97,24 +97,28 @@
             <CheatEntry>
               <ID>1</ID>
               <Description>"HeadX"</Description>
+              <LastState Value="249.1289673" RealAddress="7FFD4FCD174C"/>
               <VariableType>Float</VariableType>
               <Address>engine_x64_rwdi.Quests::PhaseUid::INVALID+40EC</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>2</ID>
               <Description>"HeadY"</Description>
+              <LastState Value="82.0916748" RealAddress="7FFD4FCD1754"/>
               <VariableType>Float</VariableType>
               <Address>engine_x64_rwdi.Quests::PhaseUid::INVALID+40F4</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>0</ID>
               <Description>"HeadZ"</Description>
+              <LastState Value="6881697792" RealAddress="7FFD4FCD0750"/>
               <VariableType>Float</VariableType>
               <Address>engine_x64_rwdi.dll+A00750</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>16</ID>
               <Description>"HeadPitch"</Description>
+              <LastState Value="7.598698541E-37" RealAddress="03A16C38"/>
               <VariableType>Float</VariableType>
               <Address>gamedll_x64_rwdi.dll+1C9B460</Address>
               <Offsets>
@@ -124,6 +128,7 @@
             <CheatEntry>
               <ID>17</ID>
               <Description>"HeadYaw"</Description>
+              <LastState Value="7.471857936E-37" RealAddress="03A16CB0"/>
               <VariableType>Float</VariableType>
               <Address>gamedll_x64_rwdi.dll+1C9B460</Address>
               <Offsets>
@@ -137,6 +142,7 @@
     <CheatEntry>
       <ID>39</ID>
       <Description>"ENEMY HP"</Description>
+      <LastState Value="6.226481168E-37" RealAddress="109D3AC18"/>
       <VariableType>Float</VariableType>
       <Address>109D3AC18</Address>
     </CheatEntry>
@@ -169,6 +175,27 @@
         <Offset>1A8</Offset>
         <Offset>A00</Offset>
       </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>44</ID>
+      <Description>"Game Start Addr"</Description>
+      <LastState Value="1" RealAddress="7FFD3841CF40"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>gamedll_x64_rwdi.dll+1D9CF40</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>45</ID>
+      <Description>"game progression addr"</Description>
+      <LastState Value="0" RealAddress="7FFD3841CFA0"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>gamedll_x64_rwdi.dll+1D9CFA0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>50</ID>
+      <Description>"Loading"</Description>
+      <LastState Value="240" RealAddress="7FFD3ED2D108"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>rd3d11_x64_rwdi.dll+7D108</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
@@ -2441,7 +2468,7 @@
       </Elements>
     </Structure>
   </Structures>
-  <LuaScript>FOLDER_PATH = 'C:/Users/liuzj/Desktop/Dying Light TAS/GameData'
+  <LuaScript>FOLDER_PATH = "C:/Users/Jonathan Liu/Desktop"
 
 ---- write variables addresses to file
 local timer = nil
@@ -2457,22 +2484,18 @@ function DEC_HEX(IN)
     return OUT
 end
 
-local function timer_tick(timer)
+local function writeProgressionVal(timer)
   local addressList = getAddressList()
-  local f = assert(io.open(FOLDER_PATH .. '/data.txt', 'w'))
-  for i = 0, addressList.getCount()-1 do
-    local item = addressList.getMemoryRecord(i)
-    local desc = item.getDescription()
-    local address = item.CurrentAddress
-    if (not (desc == 'Player' or desc == 'Head' or desc == 'PlayerEntity'))
-    then
-      ----print(desc .. ': ' .. val)
-      f:write(desc .. ':' .. DEC_HEX(address), '\n')
-    end
-  end
+  local progressionVal = addressList.getMemoryRecordByDescription('game progression addr').Value
+  local f = assert(io.open(FOLDER_PATH .. '/progression.txt', 'a'))
+
+  print('Progression val: ' .. progressionVal)
+  f:write(progressionVal, '\n')
+
   f:close()
-  print('DONE')
 end
+
+createHotkey(writeProgressionVal, VK_INSERT)
 
 
 function ControlForm_StartBtnClick(sender)
